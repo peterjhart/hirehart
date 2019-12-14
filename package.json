@@ -1,0 +1,19 @@
+{
+  "name": "hirehart.com",
+  "version": "1.0.0",
+  "description": "Website for getting Peter back to work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterjhart/hirehart.git"
+  },
+  "author": "Peter J. Hart",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/peterjhart/hirehart/issues"
+  },
+  "homepage": "https://github.com/peterjhart/hirehart#readme"
+}
