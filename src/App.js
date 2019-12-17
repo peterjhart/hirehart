@@ -15,7 +15,7 @@ function App() {
               <h4 className="text-uppercase m-0">Résumé</h4>
               <hr className="my-4" />
               <div className="small text-black-50">
-                <em>coming soon</em>
+                <a href="/assets/peter%20j.%20hart%20resume%202019.pdf">PDF</a>
               </div>
             </div>
           </div>
