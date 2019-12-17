@@ -1,12 +1,26 @@
 import React from "react";
-import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="header">
+      <header className="text-center mb-3">
         <h1>Peter needs a job.</h1>
       </header>
+
+      <div className="row mb-3">
+        <div className="col text-center"></div>
+        <div className="col text-center">
+          <p>
+            <strong>The source for this website is on github!</strong>
+          </p>
+          <p>
+            <a href="https://github.com/peterjhart/hirehart" target="_blank">
+              GitHub
+            </a>
+          </p>
+        </div>
+        <div className="col text-center"></div>
+      </div>
     </div>
   );
 }
