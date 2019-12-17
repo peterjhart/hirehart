@@ -14,7 +14,11 @@ function App() {
             <strong>The source for this website is on github!</strong>
           </p>
           <p>
-            <a href="https://github.com/peterjhart/hirehart" target="_blank">
+            <a
+              href="https://github.com/peterjhart/hirehart"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               GitHub
             </a>
           </p>
