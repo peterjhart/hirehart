@@ -22,7 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "update-theme": "cp -R ./node_modules/startbootstrap-grayscale/dist/* ./src/theme/"
   },
   "eslintConfig": {
     "extends": "react-app"
