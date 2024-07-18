@@ -1,6 +1,6 @@
-import React from "react";
+import { ReactElement } from "react";
 
-function App() {
+export default function App(): ReactElement {
   return (
     <div className="header">
       <header className="text-center mb-3">
@@ -15,7 +15,7 @@ function App() {
               <h4 className="text-uppercase m-0">Résumé</h4>
               <hr className="my-4" />
               <div className="small text-black-50">
-                <a href="/assets/peter%20j.%20hart%20resume%202019.pdf">PDF</a>
+                <a href="/assets/peter%20j.%20hart%20resume%202024.pdf">PDF</a>
               </div>
             </div>
           </div>
@@ -55,5 +55,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
