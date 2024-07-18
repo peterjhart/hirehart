@@ -5,7 +5,7 @@
   "homepage": "https://hirehart.com",
   "author": "Peter J. Hart",
   "engines": {
-    "node": ">=16.20.2"
+    "node": ">=18.20.4"
   },
   "license": "UNLIENSED",
   "repository": {
