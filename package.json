@@ -4,6 +4,9 @@
   "description": "Website for getting Peter back to work",
   "homepage": "https://hirehart.com",
   "author": "Peter J. Hart",
+  "engines": {
+    "node": ">=16.20.2"
+  },
   "license": "UNLIENSED",
   "repository": {
     "type": "git",
