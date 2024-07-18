@@ -7,7 +7,7 @@
   "engines": {
     "node": ">=18.20.4"
   },
-  "license": "UNLIENSED",
+  "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/peterjhart/hirehart.git"
