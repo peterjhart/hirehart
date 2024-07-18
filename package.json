@@ -42,11 +42,8 @@
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
     "bootstrap": "^4.4.1",
-    "fibers": "^4.0.2",
-    "node-sass": "^7.0.0",
     "popper.js": "^1.16.0",
     "prettier": "1.19.1",
-    "sass": "^1.23.7",
     "startbootstrap-grayscale": "^7.0.6",
     "typescript": "^3.7.3"
   }
