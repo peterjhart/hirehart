@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    ports:
+      - "80:3000"
+    volumes:
+      - .:/usr/local/app
+      - /usr/local/app/node_modules

@@ -7,8 +7,8 @@ View the website here: [hirehart.com](https://hirehart.com)
 To run this container:
 
 ```zsh
-docker build -t hirehart:latest .
-docker run -d -p 80:3000 --name=hirehart hirehart:latest
+docker compose build
+docker compose up
 ```
 
 Then visit http://localhost
@@ -16,5 +16,5 @@ Then visit http://localhost
 To stop the container:
 
 ```zsh
-docker stop hirehart
+docker compose down
 ```
