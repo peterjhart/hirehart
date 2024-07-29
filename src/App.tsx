@@ -1,4 +1,4 @@
-import { ReactElement } from "react";
+import { ReactElement } from 'react'
 
 export default function App(): ReactElement {
   return (
@@ -53,5 +53,5 @@ export default function App(): ReactElement {
         </div>
       </div>
     </div>
-  );
+  )
 }
