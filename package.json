@@ -13,19 +13,10 @@
     "url": "git+https://github.com/peterjhart/hirehart.git"
   },
   "private": true,
-  "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "build": "",
+    "test": "",
     "update-theme": "cp -R ./node_modules/startbootstrap-grayscale/dist/* ./src/theme/"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -41,15 +32,9 @@
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
-    "@testing-library/jest-dom": "^6.4.6",
-    "@testing-library/react": "^16.0.0",
-    "@testing-library/user-event": "^14.5.2",
     "bootstrap": "^5.3.3",
     "popper.js": "^1.16.0",
     "prettier": "3.3.3",
-    "react-scripts": "^5.0.1",
-    "sass": "^1.77.8",
-    "startbootstrap-grayscale": "^7.0.6",
-    "typescript": "^5.5.3"
+    "startbootstrap-grayscale": "^7.0.6"
   }
 }
