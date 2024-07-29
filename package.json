@@ -32,9 +32,16 @@
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
     "bootstrap": "^5.3.3",
     "popper.js": "^1.16.0",
     "prettier": "3.3.3",
-    "startbootstrap-grayscale": "^7.0.6"
+    "startbootstrap-grayscale": "^7.0.6",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
