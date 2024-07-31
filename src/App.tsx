@@ -16,7 +16,7 @@ export default function App(): ReactElement {
               strokeWidth={1.5}
             />
           </div>
-          <h2 className="text-center text-uppercase text-3xl text-cyan-600">
+          <h2 className="text-center uppercase text-3xl text-cyan-600">
             Résumé
           </h2>
           <hr className="my-4" />
@@ -37,7 +37,7 @@ export default function App(): ReactElement {
               strokeWidth={1.5}
             />
           </div>
-          <h4 className="text-center text-uppercase text-3xl text-cyan-600">
+          <h4 className="text-center uppercase text-3xl text-cyan-600">
             GitHub
           </h4>
           <hr className="my-4" />
@@ -61,7 +61,7 @@ export default function App(): ReactElement {
               strokeWidth={1.5}
             />
           </div>
-          <h4 className="text-center text-uppercase text-3xl text-cyan-600">
+          <h4 className="text-center uppercase text-3xl text-cyan-600">
             Contact
           </h4>
           <hr className="my-4" />
