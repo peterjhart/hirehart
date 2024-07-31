@@ -18,7 +18,7 @@ export default function App(): ReactElement {
           </div>
           <h2 className="text-center text-3xl text-cyan-600">Résumé</h2>
           <hr className="my-4" />
-          <div className="text-center">
+          <div className="text-center text-balance">
             <a
               className="text-cyan-600 underline underline-offset-4"
               href="/assets/peter%20j.%20hart%20resume%202024.pdf"
@@ -37,7 +37,7 @@ export default function App(): ReactElement {
           </div>
           <h4 className="text-center text-3xl text-cyan-600">GitHub</h4>
           <hr className="my-4" />
-          <div className="text-center">
+          <div className="text-center text-balance">
             See the source for this website on&nbsp;
             <a
               className="text-cyan-600 underline underline-offset-4"
@@ -59,7 +59,7 @@ export default function App(): ReactElement {
           </div>
           <h4 className="text-center text-3xl text-cyan-600">Contact</h4>
           <hr className="my-4" />
-          <div className="text-center">
+          <div className="text-center text-balance">
             <a
               className="text-cyan-600 underline underline-offset-4"
               href="mailto:peter@hirehart.com"
