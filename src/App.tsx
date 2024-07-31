@@ -5,7 +5,7 @@ export default function App(): ReactElement {
   return (
     <div className="py-8">
       <header className="text-center mb-3">
-        <h1 className="text-6xl mb-8">Peter needs a job.</h1>
+        <h1 className="text-8xl mb-8">Hire Peter Hart</h1>
       </header>
 
       <div className="grid xs:grid-cols-1 md:grid-cols-3 gap-4 mx-12">
@@ -16,9 +16,7 @@ export default function App(): ReactElement {
               strokeWidth={1.5}
             />
           </div>
-          <h2 className="text-center uppercase text-3xl text-cyan-600">
-            Résumé
-          </h2>
+          <h2 className="text-center text-3xl text-cyan-600">Résumé</h2>
           <hr className="my-4" />
           <div className="text-center">
             <a
@@ -37,9 +35,7 @@ export default function App(): ReactElement {
               strokeWidth={1.5}
             />
           </div>
-          <h4 className="text-center uppercase text-3xl text-cyan-600">
-            GitHub
-          </h4>
+          <h4 className="text-center text-3xl text-cyan-600">GitHub</h4>
           <hr className="my-4" />
           <div className="text-center">
             See the source for this website on&nbsp;
@@ -61,9 +57,7 @@ export default function App(): ReactElement {
               strokeWidth={1.5}
             />
           </div>
-          <h4 className="text-center uppercase text-3xl text-cyan-600">
-            Contact
-          </h4>
+          <h4 className="text-center text-3xl text-cyan-600">Contact</h4>
           <hr className="my-4" />
           <div className="text-center">
             <a
