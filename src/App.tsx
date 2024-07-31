@@ -1,4 +1,5 @@
 import { ReactElement } from 'react'
+import { FileTextIcon, GithubIcon, MailIcon } from 'lucide-react'
 
 export default function App(): ReactElement {
   return (
@@ -11,7 +12,7 @@ export default function App(): ReactElement {
         <div className="col-md-4 mb-3 mb-md-0">
           <div className="card py-4 h-100">
             <div className="card-body text-center">
-              <i className="fas fa-file-alt text-primary mb-2"></i>
+              <FileTextIcon className="text-primary mb-2" />
               <h4 className="text-uppercase m-0">Résumé</h4>
               <hr className="my-4" />
               <div className="small text-black-50">
@@ -23,7 +24,7 @@ export default function App(): ReactElement {
         <div className="col-md-4 mb-3 mb-md-0">
           <div className="card py-4 h-100">
             <div className="card-body text-center">
-              <i className="fab fa-github text-primary mb-2"></i>
+              <GithubIcon className="text-primary mb-2"></GithubIcon>
               <h4 className="text-uppercase m-0">GitHub</h4>
               <hr className="my-4" />
               <div className="small text-black-50">
@@ -42,7 +43,7 @@ export default function App(): ReactElement {
         <div className="col-md-4 mb-3 mb-md-0">
           <div className="card py-4 h-100">
             <div className="card-body text-center">
-              <i className="fas fa-envelope text-primary mb-2"></i>
+              <MailIcon className="text-primary mb-2" />
               <h4 className="text-uppercase m-0">Contact</h4>
               <hr className="my-4" />
               <div className="small text-black-50">

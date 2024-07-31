@@ -17,8 +17,7 @@
     "build": "tsc -b && vite build",
     "dev": "vite",
     "preview": "vite preview",
-    "test": "",
-    "update-theme": "cp -R ./node_modules/startbootstrap-grayscale/dist/* ./src/theme/"
+    "test": ""
   },
   "browserslist": {
     "production": [
@@ -33,18 +32,17 @@
     ]
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^6.6.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.7.0",
     "bootstrap": "^5.3.3",
     "popper.js": "^1.16.0",
     "prettier": "3.3.3",
-    "startbootstrap-grayscale": "^7.0.6",
     "typescript": "^5.5.4",
     "vite": "^5.3.5"
   },
   "dependencies": {
+    "lucide-react": "^0.418.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
