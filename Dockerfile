@@ -7,6 +7,6 @@ RUN --mount=type=cache,id=npm,target=/root/.npm npm ci --force
 
 COPY ./public ./public
 COPY ./src ./src
-COPY tsconfig.json vite.config.ts index.html ./
+COPY index.html postcss.config.js tailwind.config.js tsconfig.json vite.config.ts ./
 
 CMD ["npm", "run", "dev"]
