@@ -8,7 +8,7 @@ To run this container:
 
 ```zsh
 docker compose build
-docker compose up
+docker compose up -d
 ```
 
 Then visit http://localhost
