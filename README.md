@@ -18,3 +18,11 @@ To stop the container:
 ```zsh
 docker compose down
 ```
+
+## Testing
+
+To run unit tests:
+
+```zsh
+npm test
+```

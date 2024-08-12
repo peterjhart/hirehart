@@ -17,8 +17,9 @@
     "build": "tsc -b && vite build",
     "dev": "vite",
     "preview": "vite preview",
-    "test": ""
+    "test": "vitest"
   },
+  "type": "module",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -32,18 +33,22 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^16.0.0",
     "@types/node": "^22.0.2",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.7.0",
     "autoprefixer": "^10.4.19",
     "bootstrap": "^5.3.3",
+    "happy-dom": "^14.12.3",
     "popper.js": "^1.16.0",
     "postcss": "^8.4.40",
     "prettier": "3.3.3",
     "tailwindcss": "^3.4.7",
     "typescript": "^5.5.4",
-    "vite": "^5.3.5"
+    "vite": "^5.3.5",
+    "vitest": "^2.0.5"
   },
   "dependencies": {
     "lucide-react": "^0.418.0",
