@@ -5,8 +5,8 @@ COPY ./package.json ./package-lock.json ./
 
 RUN --mount=type=cache,id=npm,target=/root/.npm npm ci --force
 
-COPY ./public ./public
-COPY ./src ./src
-COPY index.html postcss.config.js tailwind.config.js tsconfig.json vite.config.ts ./
+COPY . ./
+
+RUN npm run test:once
 
 CMD ["npm", "run", "dev"]
