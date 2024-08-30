@@ -5,7 +5,13 @@ export default function App(): ReactElement {
   return (
     <div className="py-8">
       <header className="text-center mb-3">
-        <h1 className="text-8xl mb-8">Hire Peter Hart</h1>
+        <h1 className="text-8xl mb-8">
+          Peter needs a{` `}
+          <span className="highlighted-text" data-text="job">
+            job
+          </span>
+          .
+        </h1>
       </header>
 
       <div className="grid xs:grid-cols-1 md:grid-cols-3 gap-4 mx-12">
