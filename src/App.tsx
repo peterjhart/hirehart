@@ -1,46 +1,34 @@
-import { ReactElement } from 'react'
+import { ElementType, ReactElement, ReactNode } from 'react'
 import { FileTextIcon, SquareCodeIcon, MailIcon } from 'lucide-react'
 
 export default function App(): ReactElement {
   return (
     <div className="py-8">
       <header className="text-center mb-3">
-        <h1 className="text-8xl mb-8">Hire Peter Hart</h1>
+        <h1 className="text-8xl text-cyan-600 mb-8">
+          Peter needs a{` `}
+          <span className="highlighted-text" data-text="job">
+            job
+          </span>
+          .
+        </h1>
       </header>
 
       <div className="grid xs:grid-cols-1 md:grid-cols-3 gap-4 mx-12">
-        <div className="mb-3 p-4 border rounded-lg h-full">
-          <div className="flex justify-center">
-            <FileTextIcon
-              className="h-12 w-12 mb-2 text-cyan-600"
-              strokeWidth={1.5}
-            />
-          </div>
+        <Card icon={FileTextIcon}>
           <h2 className="text-center text-3xl text-cyan-600">Résumé</h2>
           <hr className="my-4" />
           <div className="text-center text-balance">
-            <a
-              className="text-cyan-600 underline underline-offset-4"
-              href="/assets/peter%20j.%20hart%20resume%202024.pdf"
-            >
-              PDF
-            </a>
+            <a href="/assets/peter%20j.%20hart%20resume%202024.pdf">PDF</a>
           </div>
-        </div>
+        </Card>
 
-        <div className="mb-3 p-4 border rounded-lg h-full">
-          <div className="flex justify-center">
-            <SquareCodeIcon
-              className="h-12 w-12 mb-2 text-cyan-600"
-              strokeWidth={1.5}
-            />
-          </div>
+        <Card icon={SquareCodeIcon}>
           <h4 className="text-center text-3xl text-cyan-600">GitHub</h4>
           <hr className="my-4" />
           <div className="text-center text-balance">
             See the source for this website on&nbsp;
             <a
-              className="text-cyan-600 underline underline-offset-4"
               href="https://github.com/peterjhart/hirehart"
               target="_blank"
               rel="noopener noreferrer"
@@ -48,26 +36,36 @@ export default function App(): ReactElement {
               GitHub
             </a>
           </div>
-        </div>
+        </Card>
 
-        <div className="mb-3 p-4 border rounded-lg h-full">
-          <div className="flex justify-center">
-            <MailIcon
-              className="h-12 w-12 mb-2 text-cyan-600"
-              strokeWidth={1.5}
-            />
-          </div>
+        <Card icon={MailIcon}>
           <h4 className="text-center text-3xl text-cyan-600">Contact</h4>
           <hr className="my-4" />
           <div className="text-center text-balance">
-            <a
-              className="text-cyan-600 underline underline-offset-4"
-              href="mailto:peter@hirehart.com"
-            >
-              peter@hirehart.com
-            </a>
+            <a href="mailto:peter@hirehart.com">peter@hirehart.com</a>
           </div>
+        </Card>
+      </div>
+    </div>
+  )
+}
+
+interface CardProps {
+  children: ReactNode
+  icon: ElementType
+}
+
+function Card({ children, icon: IconComponent }: CardProps): ReactElement {
+  return (
+    <div className="animated-card">
+      <div className="card">
+        <div className="flex justify-center">
+          <IconComponent
+            className="h-12 w-12 mb-2 text-cyan-600"
+            strokeWidth={1.5}
+          />
         </div>
+        {children}
       </div>
     </div>
   )
